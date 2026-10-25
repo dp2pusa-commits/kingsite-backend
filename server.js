@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const APP_ID = '33Dg2mvJU7l5aIjukYAvN';
+const APP_ID = '34Lz9Xi4adjsWO0UzXJ7A';
 const TOKEN_URL = 'https://auth.deriv.com/oauth2/token';
 
 // Health check — visiting the backend URL directly should show this
